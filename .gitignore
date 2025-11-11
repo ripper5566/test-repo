@@ -20,3 +20,13 @@ rad.json
 *.flf
 #Test results file
 TestResults.xml
+
+### Mail Reader Downloader ###
+# Ignore downloaded mail reader files
+mail_readers_backup/
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python

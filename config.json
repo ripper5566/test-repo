@@ -1,0 +1,32 @@
+{
+  "mail_readers": {
+    "thunderbird_windows": {
+      "name": "Mozilla Thunderbird (Windows)",
+      "url": "https://download.mozilla.org/?product=thunderbird-latest&os=win64&lang=en-US",
+      "filename": "thunderbird_windows.exe",
+      "enabled": true
+    },
+    "thunderbird_mac": {
+      "name": "Mozilla Thunderbird (macOS)",
+      "url": "https://download.mozilla.org/?product=thunderbird-latest&os=osx&lang=en-US",
+      "filename": "thunderbird_mac.dmg",
+      "enabled": true
+    },
+    "thunderbird_linux": {
+      "name": "Mozilla Thunderbird (Linux)",
+      "url": "https://download.mozilla.org/?product=thunderbird-latest&os=linux64&lang=en-US",
+      "filename": "thunderbird_linux.tar.bz2",
+      "enabled": true
+    }
+  },
+  "settings": {
+    "output_directory": "mail_readers_backup",
+    "retry_attempts": 3,
+    "timeout_seconds": 300
+  },
+  "notes": {
+    "info": "This configuration file allows customization of mail reader downloads.",
+    "usage": "Modify 'enabled' to control which mail readers to download.",
+    "additional_readers": "You can add more mail readers by following the same JSON structure."
+  }
+}
